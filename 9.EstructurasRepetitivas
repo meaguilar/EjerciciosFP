@@ -1,0 +1,28 @@
+Algoritmo EstructurasRepetitivas
+	//Calcular la suma de 10 numeros
+	Definir numero Como Real
+	Definir  contador Como Entero
+	contador = 0
+	
+//	Mientras  contador < 10 Hacer
+//		Escribir "Ingresa un número"
+//		Leer numero
+//		contador = contador + 1
+//		suma = suma + numero
+//	FinMientras
+	
+//	Para cont = 1 Hasta 10 Con Paso 1 Hacer
+//		Escribir "Ingresa un número"
+//		Leer numero
+//		suma = suma + numero
+//	Fin Para
+	
+	Repetir
+		contador = contador + 1
+		Escribir "Ingresa un número"
+		Leer numero
+		suma = suma + numero
+	Hasta Que contador == 10
+
+	Escribir "La suma es ", suma
+FinAlgoritmo
