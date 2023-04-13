@@ -1,0 +1,24 @@
+Algoritmo ManejoDescuentoFormasPago
+	Definir saldo, totalPagar, monto, cambio Como Real
+	Definir efectivo Como Entero
+	Escribir "Ingrese el total de la compra"
+	Leer totalPagar
+	Si totalPagar >= 50 Entonces
+		totalPagar=saldo*0.80
+		Escribir "su total es de: $", totalPagar
+	SiNo
+		totalPagar=saldo
+		Escribir "su total es de: $", totalPagar
+	Fin Si
+	Escribir "¿Pagaria en efectivo?, Si = 1; No = 0"
+	Leer efectivo
+	Si efectivo = 1 Entonces
+		Escribir "Ingrese el monto"
+		Leer monto
+		cambio = total-monto
+		Escribir "Su cambio es de: $", cambio
+	SiNo
+		Escribir "Gracias por su compra"
+	Fin Si
+	//Reto agregar mas formas de pago con la estructura Segun Hacer y el proceso que corresponderia para cada una
+FinAlgoritmo
